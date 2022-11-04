@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(tree.jpg);
+    background-size: cover;
+}
+.Login{
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 2.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+
+}
+.Login h1{
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+.Login form{
+    font-size: 1rem;
+}
+.Login form .form-group{
+    font-size: 1.2rem;
+    color: #fff;
+    transition: 0.5s;
+    margin-bottom: 12px;
+}
+.Login form input[type="Submit"]{
+    width: 100%;
+    padding: 0.625rem 0;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.062rem;
+    margin-bottom: 1.875rem;
+    border: none;
+    border-bottom: 0.165rem solid rgb(179, 12, 12);
+    outline: none;
+    background: transparent;
+}
